@@ -8,14 +8,14 @@ BadalToken is an ERC20 token built on the Ethereum blockchain, designed to facil
 BadalToken is a custom ```ERC20``` token built with Solidity and leveraging OpenZeppelin's secure implementation. It supports essential functionalities such as minting, burning, and transferring tokens. The contract ensures that only the owner can ```mint``` new tokens, while all users can ```burn``` and ```transfer``` their tokens securely. This ```ERC20 token``` is designed to provide robust and efficient token management on the ```Ethereum blockchain```.
 
 ## Features
-•  Minting Tokens: The contract owner has the authority to mint new tokens and assign them to any specified address. This functionality is critical for controlling the initial and subsequent distribution of tokens.  
-•  Burning Tokens: Users can reduce the circulating supply by burning their tokens. This is useful for token management and maintaining value by controlling the total supply.  
-•  Transferring Tokens: Users can securely transfer tokens to other addresses, ensuring smooth and efficient token transactions within the ecosystem.  
+• ``` Minting Tokens```: The contract owner has the authority to mint new tokens and assign them to any specified address. This functionality is critical for controlling the initial and subsequent distribution of tokens.  
+•  ```Burning Tokens```: Users can reduce the circulating supply by burning their tokens. This is useful for token management and maintaining value by controlling the total supply.  
+•  ```Transferring Tokens```: Users can securely transfer tokens to other addresses, ensuring smooth and efficient token transactions within the ecosystem.  
 
 ## Technology Stack
-•  Solidity: Utilized for writing and deploying smart contracts.  
-•  OpenZeppelin: A set of secure and community-reviewed smart contracts used for the implementation of the ERC20 standard.  
-•  Hardhat: A comprehensive development environment for compiling, deploying, testing, and debugging Ethereum software.  
+•  ```Solidity```: Utilized for writing and deploying smart contracts.  
+• ``` OpenZeppelin```: A set of secure and community-reviewed smart contracts used for the implementation of the ERC20 standard.  
+• ``` Hardhat```: A comprehensive development environment for compiling, deploying, testing, and debugging Ethereum software.  
 
 ## Getting Started
 
