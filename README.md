@@ -5,37 +5,37 @@ BadalToken is an ERC20 token built on the Ethereum blockchain, designed to facil
 
 
 ## Description
-BadalToken is a custom ERC20 token built with Solidity and leveraging OpenZeppelin's secure implementation. It supports essential functionalities such as minting, burning, and transferring tokens. The contract ensures that only the owner can mint new tokens, while all users can burn and transfer their tokens securely. This token is designed to provide robust and efficient token management on the Ethereum blockchain.
+BadalToken is a custom ```ERC20``` token built with Solidity and leveraging OpenZeppelin's secure implementation. It supports essential functionalities such as minting, burning, and transferring tokens. The contract ensures that only the owner can ```mint``` new tokens, while all users can ```burn``` and ```transfer``` their tokens securely. This ```ERC20 token``` is designed to provide robust and efficient token management on the ```Ethereum blockchain```.
 
 ## Features
-•  Minting Tokens: The contract owner has the authority to mint new tokens and assign them to any specified address. This functionality is critical for controlling the initial and subsequent distribution of tokens.
-•  Burning Tokens: Users can reduce the circulating supply by burning their tokens. This is useful for token management and maintaining value by controlling the total supply.
-•  Transferring Tokens: Users can securely transfer tokens to other addresses, ensuring smooth and efficient token transactions within the ecosystem.
+•  Minting Tokens: The contract owner has the authority to mint new tokens and assign them to any specified address. This functionality is critical for controlling the initial and subsequent distribution of tokens.  
+•  Burning Tokens: Users can reduce the circulating supply by burning their tokens. This is useful for token management and maintaining value by controlling the total supply.  
+•  Transferring Tokens: Users can securely transfer tokens to other addresses, ensuring smooth and efficient token transactions within the ecosystem.  
 
 ## Technology Stack
-•  Solidity: Utilized for writing and deploying smart contracts.
-•  OpenZeppelin: A set of secure and community-reviewed smart contracts used for the implementation of the ERC20 standard.
-•  Hardhat: A comprehensive development environment for compiling, deploying, testing, and debugging Ethereum software.
+•  Solidity: Utilized for writing and deploying smart contracts.  
+•  OpenZeppelin: A set of secure and community-reviewed smart contracts used for the implementation of the ERC20 standard.  
+•  Hardhat: A comprehensive development environment for compiling, deploying, testing, and debugging Ethereum software.  
 
 ## Getting Started
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at [Remix](https://remix.ethereum.org/) (https://remix.ethereum.org/).
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at [Remix](https://remix.ethereum.org/) (https://remix.ethereum.org/).  
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., BadalToken.sol). Copy and paste the following code into the file:
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., BadalToken.sol). Copy and paste the following code into the file:  
 
-### Prerequisites
-• A web browser with access to Remix IDE.
-• A web3 provider like MetaMask for interacting with the deployed contract.
+### Prerequisites  
+• A web browser with access to Remix IDE.  
+• A web3 provider like MetaMask for interacting with the deployed contract.  
 
 ### Steps
-#### • Open Remix IDE:
-Navigate to Remix IDE in your web browser.
+#### • Open Remix IDE:  
+Navigate to Remix IDE in your web browser.  
 
-#### • Create a new file:
-In the Remix file explorer, create a new file named BadalToken.sol.
+#### • Create a new file:  
+In the Remix file explorer, create a new file named BadalToken.sol.  
 
-#### • Add the contract code:
-Copy and paste the following code into BadalToken.sol:
+#### • Add the contract code:  
+Copy and paste the following code into BadalToken.sol:  
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -65,47 +65,47 @@ contract BadalToken is ERC20, Ownable {
 }
 
 ```
-## Executing the Program
-## Compiling the Code
-➛  In the Remix IDE, navigate to the "Solidity Compiler" tab on the left sidebar.
-➛  Select the appropriate compiler version (0.8.26).
-➛  Click on the "Compile BadalToken.sol" button.
+## Executing the Program   
+## Compiling the Code  
+➛  In the Remix IDE, navigate to the "Solidity Compiler" tab on the left sidebar.  
+➛  Select the appropriate compiler version (0.8.26).  
+➛  Click on the "Compile BadalToken.sol" button.  
 
 ## Deploying the Contract
-➛  Deploy the contract:
-➛  Navigate to the "Deploy & Run Transactions" tab on the left sidebar.
-➛  Ensure the "Environment" is set to "Injected Web3" to use MetaMask or another web3 provider.
-➛  Select the BadalToken contract from the dropdown menu.
-➛  Enter the constructor parameters (name and symbol) in the input fields.
-➛  Click the "Deploy" button and confirm the transaction in MetaMask.  
-
+➛  Deploy the contract:  
+➛  Navigate to the "Deploy & Run Transactions" tab on the left sidebar.  
+➛  Ensure the "Environment" is set to "Injected Web3" to use MetaMask or another web3 provider.  
+➛  Select the BadalToken contract from the dropdown menu.  
+➛  Enter the constructor parameters (name and symbol) in the input fields.  
+➛  Click the "Deploy" button and confirm the transaction in MetaMask.    
+  
 ### Interacting with the Contract
-#### 1. Minting Tokens:
+#### 1. Minting Tokens:  
     Only the contract owner can mint new tokens.
-
-➝ In the "Deployed Contracts" section, expand the BadalToken contract.
-➝ Locate the MintTokens function.
-➝ Enter the recipient address and amount, then click "transact" and confirm the transaction in MetaMask.
+  
+➝ In the "Deployed Contracts" section, expand the BadalToken contract.  
+➝ Locate the MintTokens function.  
+➝ Enter the recipient address and amount, then click "transact" and confirm the transaction in MetaMask.  
 
 #### 2. Burning Tokens:
     Any user can burn their tokens.
-    
-➝ Locate the BurnTokens function.  
-➝ Enter the amount of tokens to burn, then click "transact" and confirm the transaction in MetaMask.   
+      
+➝ Locate the BurnTokens function.    
+➝ Enter the amount of tokens to burn, then click "transact" and confirm the transaction in MetaMask.     
 
 #### 3. Transferring Tokens:
-    Any user can transfer tokens to another address.
+    Any user can transfer tokens to another address.  
 
-➝ Locate the transfer function.  
-➝ Enter the recipient address and amount, then click "transact" and confirm the transaction in MetaMask.
+➝ Locate the transfer function.    
+➝ Enter the recipient address and amount, then click "transact" and confirm the transaction in MetaMask.  
 
 ## Help
 If you encounter any issues or have questions about this project, there are several resources available to assist you:
 
 ### Documentation
-1.  Solidity Documentation: Comprehensive documentation for the Solidity programming language, including syntax and features. Visit Solidity Documentation.
+1.  Solidity Documentation: Comprehensive documentation for the Solidity programming language, including syntax and features. Visit Solidity Documentation.  
 2.  Remix Documentation: Learn how to use Remix, the online Solidity IDE, with detailed guides and examples. Visit Remix Documentation.  
-3.  OpenZeppelin Documentation
+3.  OpenZeppelin Documentation  
 
 
 ##### Common Issues
@@ -123,19 +123,19 @@ If you encounter any issues or have questions about this project, there are seve
 ➝ Ensure your Ethereum wallet is unlocked and has sufficient funds.  
 
 ### FAQs
-1. What is BadalToken?  
+1. What is BadalToken?    
 A: BadalToken is a custom ERC20 token built using Solidity and OpenZeppelin's secure contract libraries. It supports essential functionalities such as minting, burning, and transferring tokens.
 
-2. What happens if I try to transfer or burn more tokens than I have?
+2. What happens if I try to transfer or burn more tokens than I have?  
 A: The contract includes a balance check to ensure users have sufficient tokens before transferring or burning. If you try to transfer or burn more tokens than you have, the transaction will revert with an "Insufficient tokens" error.
 
-3. Is the BadalToken contract secure?
+3. Is the BadalToken contract secure?  
 A: The BadalToken contract is built using OpenZeppelin's secure and community-reviewed libraries. However, it's always recommended to conduct further security audits and reviews, especially for production deployments.
 
 4. What are the benefits of using OpenZeppelin libraries?
 A: OpenZeppelin libraries provide a secure and community-reviewed set of contracts for building decentralized applications. They follow best practices and are regularly updated to address security vulnerabilities, making them a reliable choice for smart contract development.
 
-5. Can I interact with BadalToken using other Ethereum wallets?
+5. Can I interact with BadalToken using other Ethereum wallets?  
 A: Yes, you can interact with BadalToken using any Ethereum wallet that supports ERC20 tokens. This includes wallets like MetaMask, Trust Wallet, MyEtherWallet, and more.
 
 
